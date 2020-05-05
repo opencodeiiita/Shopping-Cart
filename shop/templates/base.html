@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="{% block metadescription %}{% endblock %}">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/fontawesome-all.min.css' %}">
+	<title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+	<div class="container">
+		<div class="container-fluid bg-light navbar-fixed-top my_top_navbar_div">
+			{% include 'top-navbar.html' %}
+		</div>
+		{% include 'header.html' %}
+		{% include 'navbar.html' %}
+		{% block content %}
+		{% endblock %}
+	</div>
+		{% include 'footer.html' %}
+	<script src="{% static 'js/jquery-3.2.1.slim.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>

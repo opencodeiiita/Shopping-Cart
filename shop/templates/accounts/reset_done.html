@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+{% block metadescription %}
+	Reset your password and enjoy the variety of stunning and comfy cushions.
+{% endblock %}
+{% block title %}
+	Reset Password - Perfect Cushion Store
+{% endblock %}
+{% block content %}
+	<div class="container">
+		<br>
+		<h1 class="my_title text-center">Password successfully changed</h1>
+		<br>
+		<div class="row">
+				<div class="mx-auto">
+					<br>
+					<p>Your password has been set. You may go ahead and <a href="{% url 'signin' %}">sign in</a> now.</p>
+					<br>
+				</div>
+		</div>
+		<br>
+	</div>
+	<br>
+{% endblock %}
