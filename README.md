@@ -19,5 +19,6 @@ This is an online Shopping Site made using **Django** and **postgresql** contain
 </p>
 
                                                     
-                                                    
-                                                 Made with :heart: Sneha Chattopadhyay
+ # Now you're all set to buy your own perfectcushion!
+ 
+ 
