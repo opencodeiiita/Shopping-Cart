@@ -1,5 +1,5 @@
 # Shopping-Cart
-This is an online Shopping Site made using **Django** and **postgresql** containing **login/sign-up**, **add to cart**, **product purchase features**/ **payment option** (using **Stripe **)
+This is an online Shopping Site made using **Django** and **postgresql** containing **login/sign-up**, **add to cart**, product purchase features/ **payment option** (using **Stripe**)
 
 # Oops your cart seems to be empty! :ok_woman:
 <p align="center">
