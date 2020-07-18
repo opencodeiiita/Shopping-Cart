@@ -6,7 +6,7 @@ This is an online Shopping Site made using **Django** and **postgresql** contain
   <img align="center" alt="Meme Studio" src="https://github.com/sneha-nitdgp/Shopping-Cart/blob/master/screenshots/Capture.PNG" />
 </p>
  
-# Why don't you check out the Products Page  :bowtie:
+# Why don't you check out the Products Page  :wink:
 
 <p align="center">
   <img align="center" alt="Meme Studio" src="https://github.com/sneha-nitdgp/Shopping-Cart/blob/master/screenshots/Capture1.PNG" />
@@ -18,4 +18,6 @@ This is an online Shopping Site made using **Django** and **postgresql** contain
   <img align="center" alt="Meme Studio" src="https://github.com/sneha-nitdgp/Shopping-Cart/blob/master/screenshots/add%20to%20cart.PNG" />
 </p>
 
-                                                           Made with :heart: 
+                                                    
+                                                    
+                                                 Made with :heart: Sneha Chattopadhyay
